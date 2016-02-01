@@ -100,6 +100,8 @@ String name = in.next();
 int age = in.nextInt();
 
 关于读取输入，要在前面加上头文件：import java.util.*;
+import java.util.Scanner （它只会导Scanner类，在你所建的类中只可以用util中Scanner类）
+import java.util.* （它是采用赖加载模式，你用到util中哪个类它才会加载哪个类。可以省去你一些导包的功夫，不必担心它多加载）
 
 
 7.格式化输出：
