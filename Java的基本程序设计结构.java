@@ -121,5 +121,33 @@ BigInteger d = c.multiply(b.add(BigInteger.valueOf(2)));
 
 
 11.数组
+int[] a = new int[100];
+int[][] b = new int[m][n];
 
+
+12.for each 循环
+for(int element : a)
+	System.out.println(element);
+
+for(int[] row: a)
+	for(int value: row)
+
+
+13.数组排序
+int[] a = new int [1000];
+Arrays.sort(a);
+
+int[] numbers = new int [n];
+for (int i = 0; i < numbers.length; i++) 
+	numbers[i] = i + 1;
+
+int[][] a = {
+	{1, 2, 3, 4},
+	{5, 6, 7, 8},
+	{9, 0, 1, 2}
+};
+
+
+
+第4章 对象与类
 
