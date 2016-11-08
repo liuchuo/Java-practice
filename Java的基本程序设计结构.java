@@ -6,7 +6,7 @@ public class FirstSample {
 
 main 函数的方法声明必须为 public
 System.out.print() 为不换行的
-// 
+//
 /*  */
 /**  */注释可以用来自动生成文档
 
@@ -117,7 +117,7 @@ switch：遇到 break 才停止。可能会触发多个 case 语句
 10.大数值：
 BigInteger a = BigInteger.valueOf(200);
 BigInteger c = a.add(b);
-BigInteger d = c.multiply(b.add(BigInteger.valueOf(2))); 
+BigInteger d = c.multiply(b.add(BigInteger.valueOf(2)));
 
 
 11.数组
@@ -138,7 +138,7 @@ int[] a = new int [1000];
 Arrays.sort(a);
 
 int[] numbers = new int [n];
-for (int i = 0; i < numbers.length; i++) 
+for (int i = 0; i < numbers.length; i++)
 	numbers[i] = i + 1;
 
 int[][] a = {
@@ -148,6 +148,4 @@ int[][] a = {
 };
 
 
-
-第4章 对象与类
 
